@@ -1,0 +1,190 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+  }
+
+  .bodydark {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #181818;
+    color: #ffffff;
+  }
+
+  header {
+    padding: 2% 2% 2% 3%;
+    background-color: #f1f5f8;
+    box-shadow: 0 4px 10px rgba(35, 35, 35, 0.1);
+    transition: background 0.5s linear;
+  }
+
+  .nav-center {
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  .nav-center .title {
+    font-size: 30px;
+    justify-content: center;
+    color: #FFDF52;
+    text-shadow: 1px 1px black;
+    
+  }
+
+
+
+  .nav-center .h4-dark {
+    font-size: 30px;
+    justify-content: center;
+    color: #FFDF52;
+    text-shadow: 1px 1px white;
+  }
+
+  .darkmode {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  .img-dark {
+    width: 50px;
+    height: 50px;
+    content: url(./imagens/lightmode.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: content 0.5s;
+  }
+
+  .img-darkmode {
+    width: 50px;
+    height: 50px;
+    content: url(./imagens/darkmode.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: content 0.5s; 
+  }
+
+  main {
+    height: 450px;
+    display: grid;
+    place-items: center;
+  }
+
+  main p {
+    display: inline-flex;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .container h2 {
+    text-transform: uppercase;
+    padding: 1px;
+    margin-bottom: 40px;
+  }
+
+
+
+  .btn-hero {
+    text-transform: uppercase;
+    background: #f1f5f8;
+    color: #303030;
+    font-weight: 700;
+    transition: all 0.5s;
+    background: #f1f5f8;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(35, 35, 35, 0.2);
+    border-radius: 10px;
+    font-size: 15px;
+    height: 55px;
+    width: 250px;
+  }
+
+  .btn-hero:hover {
+    color: #f1f5f8;
+    background: #303030;
+    transition: all 0.5s;
+  } 
+
+  .dark-mode {
+    background-color: #303030;
+    color: white;
+    
+  }
+
+  .dark-button {
+    text-transform: uppercase;
+    background: #303030;
+    color: #f1f5f8;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(35, 35, 35, 0.2);
+    border-radius: 10px;
+    font-size: 15px;
+    height: 55px;
+    width: 250px;
+  }
+
+  .dark-button:hover {
+    background: #f1f5f8;
+    color: #303030;
+    transition: all 0.5s;
+  }
+
+  /* Responsivo  */
+
+  /*
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+  }
+  /*  global classes */
+  
+  /* section */
+  /*
+  .section {
+    padding: 5rem 0;
+  }
+  
+  .section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+  @media screen and (min-width: 992px) {
+    .section-center {
+      width: 95vw;
+    }
+  }
+*/
